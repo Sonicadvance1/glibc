@@ -54,6 +54,10 @@ Deprecated and removed features, and other changes affecting compatibility:
 * With --enable-bind-now, installed programs are now linked with the
   BIND_NOW flag.
 
+* Support for PowerPC e500 CPUs and the PowerPC SPE ISA extension
+  (powerpc-*-*gnuspe* configurations) has been removed, following the
+  removal of support for this subarchitecture in version 9 of GCC.
+
 Changes to build and runtime requirements:
 
 * GCC 6.2 or later is required to build the GNU C Library.
